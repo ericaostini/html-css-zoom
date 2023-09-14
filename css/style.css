@@ -36,7 +36,7 @@ body{
     margin: 0 auto;
 }
 .image{
-    width: calc(100%/7);
+    width: calc(90vw/7);
     height: 110px;
     padding-right: 10px;
     margin-bottom: 20px;
