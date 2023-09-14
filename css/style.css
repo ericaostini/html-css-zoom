@@ -8,6 +8,7 @@
 }
 body{
     color: var(--color-secondary-color);
+    position: relative;
 }
 :root {
 	--color-primary-color: #000000;
@@ -23,7 +24,9 @@ body{
     height: 100vh;
     padding: 70px;
 }
-
+.margin-right{
+    padding-right: 5px;
+}
 /* main */
 .section{
     width: 80vw;
@@ -44,6 +47,23 @@ body{
 .d-flex{
     display: flex;
     flex-flow: row wrap;
+}
+.image-flex{
     justify-content: space-between;
     align-items: center;
+}
+.button-flex{
+    justify-content: flex-end;
+    text-align: center;
+}
+.button{
+    background-color: var(--color-button);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.p-absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
