@@ -37,6 +37,7 @@ body{
     height: 150px;
     padding-right: 10px;
     margin-bottom: 20px;
+    position: relative;
 }
 .image img{
     width: 100%;
@@ -59,11 +60,19 @@ body{
 .button{
     background-color: var(--color-button);
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px;
 }
 .p-absolute{
     position: absolute;
     top: 0;
     right: 0;
+}
+.user{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-button);
+    opacity: 0.8;
+    padding: 4px;
 }
