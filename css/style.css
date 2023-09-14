@@ -21,6 +21,7 @@ body{
     background-color: var(--color-primary-color);
     width: 100vw;
     height: 100vh;
+    padding: 70px;
 }
 
 /* main */
@@ -31,7 +32,8 @@ body{
 .image{
     width: calc(100%/7);
     height: 150px;
-    padding-right: 10px;;
+    padding-right: 10px;
+    margin-bottom: 20px;
 }
 .image img{
     width: 100%;
