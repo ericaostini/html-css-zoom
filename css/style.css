@@ -20,7 +20,6 @@ body{
 }
 .container{
     background-color: var(--color-primary-color);
-    width: 100vw;
     height: 100vh;
     padding-top: 70px;
     position: relative;
@@ -33,19 +32,19 @@ body{
 }
 /* main */
 .section{
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto;
 }
 .image{
     width: calc(100%/7);
-    height: 140px;
+    height: 110px;
     padding-right: 10px;
     margin-bottom: 20px;
     position: relative;
 }
 .image img{
     width: 100%;
-    height: 140px;
+    height: 110px;
     object-fit: cover;
     display: block;
 }
@@ -89,10 +88,10 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 nav i{
-    font-size: 30px;
+    font-size: 16px;
 }
 .text{
     padding-right: 20px;
@@ -106,6 +105,6 @@ nav i{
 }
 .button-end{
     background-color: var(--color-button);
-    padding: 30px;
+    padding: 15px;
     color: var(--color-text);
 }
